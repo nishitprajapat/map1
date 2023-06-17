@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <!-- Mirrored from www.techieray.com/GlobalAIRegulationTracker.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Jun 2023 13:46:14 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <title>Global AI Regulation Tracker</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="./cdn.jsdelivr.net/npm/svg-pan-zoom%403.6.1/dist/svg-pan-zoom.min.js"></script>
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="./www.techieray.com/assets/vendor/aos/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./www.techieray.com/assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./www.techieray.com/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./www.techieray.com/assets/vendor/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./www.techieray.com/assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./www.techieray.com/assets/vendor/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="./www.techieray.com/assets/css/style.css" rel="stylesheet" />
+
+    <link
+      href="./www.techieray.com/globalAIregTracker/demo/html/demo.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./www.techieray.com/globalAIregTracker/dist/svgMap.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="./www.techieray.com/globalAIregTracker/dist/infoBox.js"></script>
+    <script src="./www.techieray.com/globalAIregTracker/dist/svgMap.js"></script>
+    <script
+      src="./www.techieray.com/globalAIregTracker/dist/searchbar.js"
+      defer
+    ></script>
+    <script
+      async
+      src="../pagead2.googlesyndication.com/pagead/js/f760d.txt?client=ca-pub-2410627758500445"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="demo-container">
+      <h2>Crypto Tracker</h2>
+      <h6 style="margin: auto; display: block; width: 50%; text-align: center">
+        Created by <a href="index.html">Nixus Technology</a>
+      </h6>
+      <br />
+      <div class="form__group field" style="overflow: hidden">
+        <input
+          type="text"
+          id="search"
+          class="form__field"
+          placeholder="search about crypto In"
+        />
+        <label for="name" class="form__label">Name</label>
+        <div class="resultBox ">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon"><i class="fa fa-search"></i></div>
+      </div>
+
+      <br />
+      <div
+        id="globalReg"
+        class="map"
+      ></div>
+      <!-- <script src="./data/regdata.js"></script> -->
+      <script src="./www.techieray.com/globalAIregTracker/demo/html/data/regdata.js"></script>
+      <script>
+        new svgMap({
+          targetElementID: "globalReg",
+          data: globalReg,
+          flagType: "emoji",
+          mouseWheelZoomEnabled: true,
+          mouseWheelZoomWithKey: true,
+          showContinentSelector: true,
+        });
+      </script>
+    </div>
+
+    <div id="reg-info-box">
+      <div id="reg-info-box-content">Click on a region</div>
+      <!-- <div class="linkedin-slider-wrapper" id="linkedin-slider"></div> -->
+    </div>
+    <br />
+    <br />
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>Nixus Technology</h3>
+        <div class="copyright">
+          <b>Terms & Conditions:</b> This page was designed by the creator
+          (Raymond Sun) to collate their personal research and views on AI
+          regulation. The information on this page is not intended to be a
+          substitute for professional or academic advice, and should not be
+          relied upon for any such purpose. The creator does not make any
+          warranties or representations as to the accuracy or completeness of
+          the information on this page, and accepts no liability for any loss or
+          damage arising from its use. None of the views or opinions expressed
+          on this page reflect the views of any employer or organisation. The
+          creator may change all or any part of this page at any time without
+          notice. This page (including its contents) is owned by the creator and
+          is protected by copyright. You may use and share this page for
+          personal, non-commercial purposes only. You may not copy, distribute,
+          or modify the content of this page without the express written
+          permission of the creator.
+          <br />
+          <br />
+          &copy; Copyright <strong><span>techie_ray</span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+
+  <!-- Mirrored from www.techieray.com/GlobalAIRegulationTracker.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Jun 2023 13:46:19 GMT -->
+</html>
